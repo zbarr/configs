@@ -1,2 +1,6 @@
 Host foreman
   Hostname ch1cslzbarr002
+Host jump
+  Hostname ch0pslop006.concord.global
+Host lab
+  Hostname ch0dsldv095.faction.local
