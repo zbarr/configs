@@ -9,6 +9,9 @@ echo "Linked .tmux.conf"
 ln -sf ${PWD}/config ~/.ssh/config
 echo "Linked .ssh/config"
 
+ln -sf ${PWD}/.bash_aliases ~/.bash_aliases
+echo "Linked .bash_aliases"
+
 # git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone git@github.com:tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 echo "Cloned tpm"
@@ -22,7 +25,7 @@ echo "Cloned tmux-continuum"
 git clone git@github.com:tmux-plugins/tmux-yank ~/.tmux/plugins/tmux-yank
 echo "Cloned tmux-yank"
 
-wget https://github.com/andy-5/wslgit/releases/download/v0.9.0/wslgit.exe -P /mnt/c/Users/zbarr
+wget https://github.com/andy-5/wslgit/releases/download/v0.9.0/wslgit.exe -P /mnt/c/Users/zbarr --no-check-certificate
 echo "Retrieved wslgit.exe into win home dir"
 
 sudo umount /mnt/c
