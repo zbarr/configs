@@ -4,3 +4,7 @@ Host lab
   Hostname ch0dsldv095.faction.local
 Host hpc
   Hostname ch0pslop016.concord.global
+
+Host *
+  ServerAliveInterval 300
+  ServerAliveCountMax 2
