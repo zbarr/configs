@@ -35,11 +35,4 @@ echo "Remounted filesystem for pycharm setup"
 ln -sf /mnt/c/Users/zbarr ~/win
 echo "Created symlink to windows home"
 
-git clone ssh://git@bitbucket:7999/sre/app-configs.git /mnt/c/Users/zbarr/PycharmProjects/app-configs
-git clone ssh://git@bitbucket:7999/sre/apps-formula.git /mnt/c/Users/zbarr/PycharmProjects/apps-formula
-git clone ssh://git@bitbucket:7999/sre/system-formula.git /mnt/c/Users/zbarr/PycharmProjects/system-formula
-git clone ssh://git@bitbucket:7999/sre/services-formula.git /mnt/c/Users/zbarr/PycharmProjects/services-formula
-git clone ssh://git@bitbucket:7999/sre/salt-pillars.git /mnt/c/Users/zbarr/PycharmProjects/salt-pillars
-git clone ssh://git@bitbucket:7999/sre/salt-app.git /mnt/c/Users/zbarr/PycharmProjects/salt-app
-
 echo "Bootstrap complete... be sure to run tpm install (prefix + I) and add wslgit.exe to pycharm configuration"
